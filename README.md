@@ -2,7 +2,6 @@
 Interact with Datadog monitors, hosts and graphs using Hubot
 
 # Installation
-
     npm install hubot-datadog-plus --save
 
 Enable the module by adding it to Hubot's external-scripts.json
@@ -20,13 +19,11 @@ Create corresponding environment variables in your Hubot's environment
     HUBOT_DATADOG_APP_KEY=appkey
 
 # Usage
-
 ### Get monitor info
      hubot datadog monitor me
      hubot datadog monitor [me] <id>
 
 ### Mute/Unmute monitors
-
      hubot datadog monitor mute <id>
      hubot datadog monitor mute all
      hubot datadog monitor unmute <id>
