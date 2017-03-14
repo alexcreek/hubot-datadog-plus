@@ -21,7 +21,7 @@
 #   hubot datadog graph <1h|4h|12h|1d|1w> <memory|cpu|load|iowait|disk|disk-util> <host=foo|tag=foo:bar>
 #
 # Author:
-#   acreek
+#   alexcreek
 #
 
 dogapi = require 'dogapi'
