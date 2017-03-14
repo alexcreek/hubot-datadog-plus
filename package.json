@@ -1,0 +1,26 @@
+{
+  "name": "hubot-datadog-plus",
+  "version": "1.0.0",
+  "description": "Interact with Datadog monitors, hosts and graphs using Hubot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcreek/hubot-datadog-plus.git"
+  },
+  "keywords": [
+    "hubot",
+    "datadog"
+  ],
+  "author": "alexcreek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcreek/hubot-datadog-plus/issues"
+  },
+  "homepage": "https://github.com/alexcreek/hubot-datadog-plus#readme",
+  "dependencies": {
+    "dogapi": "^2.6.1"
+  }
+}

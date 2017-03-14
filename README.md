@@ -1,2 +1,2 @@
 # hubot-datadog-plus
-A better way to manage Datadog using Hubot
+Interact with Datadog monitors, hosts and graphs using Hubot
