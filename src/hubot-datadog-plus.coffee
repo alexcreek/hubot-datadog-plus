@@ -5,20 +5,26 @@
 #   node-dogapi
 #
 # Configuration:
-#   HUBOT_DATADOG_API_KEY
-#   HUBOT_DATADOG_APP_KEY
+#   HUBOT_DATADOG_API_KEY - Datadog API Key
+#   HUBOT_DATADOG_APP_KEY - Datadog Application Key
 #
 # Commands:
-#   hubot datadog monitor me
-#   hubot datadog monitor [me] <id>
-#   hubot datadog monitor mute <id>
-#   hubot datadog monitor unmute <id>
-#   hubot datadog monitor mute all
-#   hubot datadog monitor unmute all
-#   hubot datadog host [me] <pattern>
-#   hubot datadog host mute <name>
-#   hubot datadog host unmute <name>
-#   hubot datadog graph <1h|4h|12h|1d|1w> <memory|cpu|load|iowait|disk|disk-util> <host=foo|tag=foo:bar>
+#   hubot datadog monitor me - returns a list of monitors not in an 'OK' state
+#   hubot datadog monitor [me] <id> - returns a list of hosts triggering monitor <id> along with their state
+#   hubot datadog monitor mute <id> - mutes a monitor with <id>
+#   hubot datadog monitor unmute <id> - unmutes a monitor with <id>
+#   hubot datadog monitor mute all - mute all monitors
+#   hubot datadog monitor unmute all - unmute all monitors
+#   hubot datadog host [me] <pattern> - returns all hosts that match <pattern> 
+#   hubot datadog host mute <name> - mute a host
+#   hubot datadog host unmute <name> - unmute a host
+#   hubot datadog graph <1h|4h|12h|1d|1w> <memory|cpu|load|iowait|disk|disk-util> <host=foo|tag=foo:bar> - generates graph of metrics for a host or a tag
+#
+# Notes:
+#   HUBOT_DATADOG_API_KEY and HUBOT_DATADOG_APP_KEY can be managed at 
+#   https://app.datadoghq.com/account/settings#api
+#
+#   <name> for 'datadog host mute/unmute' must match the full hostname in Datadog
 #
 # Author:
 #   alexcreek
