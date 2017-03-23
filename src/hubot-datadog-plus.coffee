@@ -147,7 +147,7 @@ module.exports = (robot) ->
       else if Object.keys(response['action']).length >= 1
         res.send "Unmuted host #{hostname}"
 
-  robot.respond /datadog host me ([a-z0-9-_\.]+)/i, (res) ->
+  robot.respond /datadog host (?:me )?([a-z0-9-_\.]+)/i, (res) ->
     pattern = 'hosts:' + res.match[1]
     dogapi.search.query pattern, (err, response) ->
       if err
