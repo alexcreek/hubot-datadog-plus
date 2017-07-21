@@ -15,8 +15,8 @@ Get your Datadog api and app tokens [Datadog Account Settings](https://app.datad
 
 Create corresponding environment variables in your Hubot's environment
 
-    HUBOT_DATADOG_API_KEY=apikey
-    HUBOT_DATADOG_APP_KEY=appkey
+    HUBOT_DATADOG_APIKEY=apikey
+    HUBOT_DATADOG_APPKEY=appkey
 
 # Usage
 ### Get monitor info
