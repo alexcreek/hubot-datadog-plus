@@ -5,8 +5,8 @@
 #   node-dogapi
 #
 # Configuration:
-#   HUBOT_DATADOG_API_KEY - Datadog API Key
-#   HUBOT_DATADOG_APP_KEY - Datadog Application Key
+#   HUBOT_DATADOG_APIKEY - Datadog API Key
+#   HUBOT_DATADOG_APPKEY - Datadog Application Key
 #
 # Commands:
 #   hubot datadog monitor me - returns a list of monitors not in an 'OK' state
